@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { FaBars, FaTwitter } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { links, social } from './data'
 import logo from './logo.svg'
 
 const Navbar = () => {
+  
   return(
 <nav>
     <div className="nav-center">
@@ -18,7 +19,7 @@ const Navbar = () => {
         <ul className='links'>
           {links.map((item)=>{
             return(
-              <li><Link to={item.url}>{item.text}</Link></li>
+              <li><NavLink style={({isActive})=>({color:isActive && "red"})} to={item.url}>{item.text}</NavLink></li>
             )
           })}
         </ul>
@@ -26,7 +27,7 @@ const Navbar = () => {
       <ul className="social-icons">
           {social.map((i)=>{
             return(
-              <li><Link to={i.url}>{i.icon}</Link></li>
+              <li><a href={i.url}>{i.icon}</a></li>
             )
           })}
       </ul>

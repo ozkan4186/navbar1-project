@@ -45,9 +45,10 @@ const About = () => {
         <br /><br />
         Turkish Air Force Administrative Manager Ocak 2018 - Nisan 2018 (4 ay)
         <br /><br />
-Turkish Air Force 5 yıl 8 ay Göktürk Project System Satellite mission planning Nisan 2016 - Nisan 2017 (1 yıl 1 ay)
-<br /><br />
+ Turkish Air Force 5 yıl 8 ay Göktürk Project System Satellite mission planning Nisan 2016 - Nisan 2017 (1 yıl 1 ay)
+   <br /><br />
  Base Security and ProtectionEylül 2011 - Haziran 2016 (4 yıl 10 ay)
+ 
  <br /><br />
   Eğitim Atatürk ÜniversitesiLicentiate degree, Psychology · (Eylül 2020) 
   <br /><br />
